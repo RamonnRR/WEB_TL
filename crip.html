@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller de Legislacion</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Reset de CSS para asegurar consistencia entre navegadores -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Criptografia</h1>
+            <div class="menu-toggle">☰<i class="fas fa-bars"></i></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="proteccion_juridica.html"><i class="fas fa-lightbulb"></i> Proteccion Juridica</a></li>
+                    <li><a href="impl.html"><i class="fas fa-key"></i> Implicaciones</a></li>
+                    <li><a href="crip.html"><i class="fas fa-share-alt"></i> Criptografia</a></li>
+                    <li><a href="pro_jur.html"><i class="fas fa-shield-alt"></i> Propiedad Industrial y Derechos de Autor</a></li>
+                    <li><a href="resources.html"><i class="fas fa-link"></i> Normatividad Internacional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="caja">
+                <h2>Criptografía</h2>
+                <p>La criptografía es una técnica de protección de la información que permite asegurar la confidencialidad y la integridad de los datos, transformándolos en un formato ilegible para quienes no posean las claves necesarias para descifrarlos. En el contexto de la protección jurídica y de software, la criptografía ayuda a proteger los datos de usuarios y creadores, previniendo accesos no autorizados y posibles infracciones de derechos de autor.</p>
+            </div>
+            <div class="caja">
+                <h2>Criptografía Simétrica</h2>
+                <p>En la criptografía simétrica, se utiliza una única clave para cifrar y descifrar el mensaje. Este método es rápido y adecuado para proteger grandes volúmenes de datos, aunque requiere que ambas partes compartan la misma clave, lo cual puede ser un riesgo si la clave es interceptada. Un ejemplo común es el cifrado AES (Advanced Encryption Standard).
+                    <img src="images/sim.png" alt="img">
+                </p>
+            <div class="caja">
+                <h2>Criptografía Asimétrica</h2>
+                <p>La criptografía asimétrica utiliza un par de claves: una clave pública para cifrar los datos y una clave privada para descifrarlos. Esto elimina la necesidad de compartir la clave privada, aumentando la seguridad en las comunicaciones. Uno de los algoritmos más comunes es RSA (Rivest-Shamir-Adleman).</p>
+                        <img src="images/asim.png" alt="img">
+                </p>
+            </div>
+            <div class="caja">
+                <h2>¿Qué es SHA-256?</h2>
+                <p>SHA-256 (Secure Hash Algorithm 256-bit) es una función de hash criptográfica que convierte cualquier dato de entrada en un "resumen" de 256 bits o 64 caracteres. Es unidireccional, lo que significa que no se puede revertir para obtener el dato original. Este hash único es ideal para verificar la integridad de archivos y datos.
+                    <h2>¿Cómo funciona?</h2>
+                    <p>SHA-256 toma un dato de cualquier tamaño, lo procesa en bloques y realiza operaciones matemáticas complejas para generar un hash único. Incluso un cambio mínimo en el dato original produce un hash completamente diferente, lo cual es útil para detectar alteraciones.</p>
+                    <img src="images/ejmp.png" alt="img"
+                </p>
+            </div>
+            
+         
+            <!-- Otros consejos van aquí -->
+            <img src="images/antimalware.png" alt="Protección contra Malware">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 </p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>
+        // JavaScript para activar y desactivar el menú toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

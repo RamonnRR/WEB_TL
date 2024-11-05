@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller de Legislacion</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Reset de CSS para asegurar consistencia entre navegadores -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Implicaciones</h1>
+            <div class="menu-toggle">☰<i class="fas fa-bars"></i></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="proteccion_juridica.html"><i class="fas fa-lightbulb"></i> Proteccion Juridica</a></li>
+                    <li><a href="impl.html"><i class="fas fa-key"></i> Implicaciones</a></li>
+                    <li><a href="crip.html"><i class="fas fa-share-alt"></i> Criptografia</a></li>
+                    <li><a href="pro_jur.html"><i class="fas fa-shield-alt"></i> Propiedad Industrial y Derechos de Autor</a></li>
+                    <li><a href="resources.html"><i class="fas fa-link"></i> Normatividad Internacional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="caja">
+                <h2>Desafíos de la Digitalización</h2>
+                <p>La digitalización facilita la copia y distribución masiva de software, lo que aumenta los riesgos de infracción de derechos de autor. La facilidad para compartir contenido en línea, sumado a la naturaleza global de internet, hace que proteger los derechos de los creadores de software sea cada vez más complejo.</p>
+            </div>
+            <div class="caja">
+                <h2>Dificultad en la Aplicación de Leyes</h2>
+                <p>Internet no tiene fronteras, por lo que las infracciones pueden ocurrir en varias jurisdicciones a la vez. Esto complica la aplicación de leyes nacionales y requiere cooperación internacional para proteger efectivamente los derechos de los autores de software.</p>
+            </div>
+            <div class="caja">
+                <h2>Impacto en la Innovación</h2>
+                <p>La falta de protección adecuada desincentiva la creación de nuevos programas de cómputo. Sin la seguridad de poder controlar el uso de sus creaciones, los desarrolladores pueden verse menos motivados a innovar, lo que afecta el avance tecnológico y económico.</p>
+            </div>
+            <div class="caja">
+                <h2>Utiliza Contraseñas Fuertes y Únicas</h2>
+                <p>Crea contraseñas robustas para tus cuentas de redes sociales y evita usar la misma contraseña en múlcajales plataformas. Utiliza combinaciones de letras, números y caracteres especiales para mayor seguridad.</p>
+            </div>
+            <div class="caja">
+                <h2>Retos Éticos y Legales en Nuevas Tecnologías</h2>
+                <p>Con el crecimiento de la inteligencia artificial, las redes sociales y el big data, surgen nuevos retos en la titularidad de derechos, ya que la autoría puede incluir a múltiples desarrolladores o incluso sistemas automatizados. Las leyes actuales necesitan actualización continua para abordar estos desafíos.</p>
+            </div>
+            <div class="caja">
+                <h2>Equilibrio entre Acceso y Protección</h2>
+                <p>Las tecnologías de la información y comunicación permiten un mayor acceso a software y contenido, lo que puede chocar con los intereses de los titulares de derechos. La legislación debe encontrar un equilibrio entre permitir el acceso al conocimiento y proteger los derechos de los creadores.</p>
+            </div>
+            
+            <!-- Otros consejos van aquí -->
+            <img src="images/redes.jpg" alt="Protección contra Malware">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 </p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>
+        // JavaScript para activar y desactivar el menú toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

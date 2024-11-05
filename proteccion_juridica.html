@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller de Legislacion</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Reset de CSS para asegurar consistencia entre navegadores -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Proteccion Juridica</h1>
+
+            <div class="menu-toggle">☰<i class="fas fa-bars"></i></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="proteccion_juridica.html"><i class="fas fa-lightbulb"></i> Proteccion Juridica</a></li>
+                    <li><a href="impl.html"><i class="fas fa-key"></i> Implicaciones</a></li>
+                    <li><a href="crip.html"><i class="fas fa-share-alt"></i> Criptografia</a></li>
+                    <li><a href="pro_jur.html"><i class="fas fa-shield-alt"></i> Propiedad Industrial y Derechos de Autor</a></li>
+                    <li><a href="resources.html"><i class="fas fa-link"></i> Normatividad Internacional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="caja">
+                <h2>Definición y Alcance</h2>
+                <p>La protección jurídica de los programas de cómputo se refiere a las medidas legales que garantizan los derechos de los desarrolladores sobre sus creaciones informáticas. Los programas de cómputo, también conocidos como software, incluyen aplicaciones, sistemas operativos, y cualquier otro tipo de código que se ejecuta en dispositivos electrónicos.</p>
+            </div>
+            <div class="caja">
+                <h2>Marco Legal</h2>
+                <p>En la mayoría de los países, los programas de cómputo están protegidos bajo la legislación de derechos de autor. Esto implica que el código fuente (el lenguaje en el que se escribe el software) y el código objeto (la forma ejecutable del software) son considerados obras literarias.</p>
+            </div>
+            <div class="caja">
+                <h2>Derechos del Autor</h2>
+                <p>Los creadores de software tienen derechos morales, que les reconocen como autores y les permiten oponerse a modificaciones que puedan dañar su reputación, y derechos patrimoniales, que les dan el control sobre la explotación económica del software.</p>
+            </div>
+            <div class="caja">
+                <h2>Licencias de Software</h2>
+                <p>Las licencias son contratos que regulan el uso del software. Las licencias propietarias permiten el uso restringido del software sin acceso al código fuente, mientras que las licencias de código abierto permiten acceder y modificar el código bajo ciertos términos. Otros tipos de licencias incluyen freeware (gratuito) y shareware (de prueba).</p>
+            </div>
+            <div class="caja">
+                <h2>Infracción y Sanciones</h2>
+                <p> Las infracciones al derecho de autor pueden resultar en demandas civiles, obligando a los infractores a pagar daños, y en sanciones penales en casos graves, con multas y hasta penas de prisión.
+
+                </p>
+            </div>
+            <div class="caja">
+                <h2>Resumen</h2>
+                <p>La protección jurídica de los programas de cómputo es esencial para fomentar la innovación y garantizar el control y los beneficios económicos para los creadores, adaptándose continuamente a los avances tecnológicos.</p>
+              
+            <!-- Otros consejos van aquí -->
+            <img src="images/security_intro.jpg" alt="Protección contra Malware">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 </p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>
+        // JavaScript para activar y desactivar el menú toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
